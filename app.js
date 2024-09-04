@@ -52,7 +52,7 @@ async function getTeamSchedule(TEAM, SEASON) {
         const teamName = findTeamName(teams, TEAM);
         const schedule = await getTeamSchedule(TEAM, SEASON);
 
-        let csv = ["DATE,TIME,HOME,AWAY,TYPE"]
+        let csv = ["DATE,TIME,AWAY,HOME,TYPE"]
 
         schedule.forEach(game => {
             let date = formatDate(game.startTimeUTC);
