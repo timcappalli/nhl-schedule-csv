@@ -4,7 +4,7 @@ const { DateTime } = require('luxon');
 
 // UPDATE THESE
 const TEAM = "BOS";
-const SEASON = "20242025";
+const SEASON = "20252026";
 const TIMEZONE = "America/New_York";
 
 async function getTeamInfo() {
